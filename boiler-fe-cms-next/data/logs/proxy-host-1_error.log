@@ -1,0 +1,8 @@
+2024/12/17 15:58:32 [error] 208#208: *21 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:01:47 [error] 244#244: *92 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:01:50 [error] 244#244: *92 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:02:01 [error] 244#244: *92 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:02:02 [error] 244#244: *92 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:05:10 [error] 183#183: *8 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:06:01 [error] 210#210: *11 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"
+2024/12/17 16:06:33 [error] 210#210: *11 app1 could not be resolved (3: Host not found), client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost", referrer: "http://localhost:81/"

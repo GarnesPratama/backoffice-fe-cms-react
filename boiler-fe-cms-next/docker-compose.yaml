@@ -1,0 +1,27 @@
+version: '3.3'
+
+services:
+  app:
+    build: .
+    container_name: boiler-fe-cms-next
+    ports:
+      - "3001:3001"
+    networks:
+      - app-network
+  network:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: always
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+
